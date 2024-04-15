@@ -35,7 +35,7 @@ if cursor.fetchone()[0] == 0:  # If the table is empty, then insert data
     conn.commit()
 
 
-#  PTORequest SQLite
+#  PTORequest SQL
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS PTORequest(
     PTOID INTEGER PRIMARY KEY AUTOINCREMENT,
